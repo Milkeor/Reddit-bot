@@ -65,7 +65,7 @@ function fetchAnnounce(subreddit) {
                             title: unescapeJSON(value.data.title),
                             url: `https://redd.it/${submissionID}`,
                             image: {
-                                url: value.data.thumbnail ? value.data.thumbnail : "https://a.thumbs.redditmedia.com/cgfaT2eh3dEkaf-smovl78lAiT_MF_xHB0-AfI5UJ70.png",
+                                thumbnail: value.data.thumbnail ? value.data.thumbnail : "https://a.thumbs.redditmedia.com/cgfaT2eh3dEkaf-smovl78lAiT_MF_xHB0-AfI5UJ70.png",
                                 width: 70,
                                 height: 70
                             },
